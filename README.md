@@ -11,7 +11,9 @@ A clean and responsive task management application built using HTML5, CSS3, and 
 Manage daily tasks, organize priorities, track progress, and save tasks directly in your browser.
 
 ## 🌐 Live Demo
+## 📸 Project Preview
 
+![Task Manager Screenshot](./task-manager-preview.png)
 **[🚀 View Live Application](https://anik339.github.io/javascript-task-manager/)**
 
 ## ✨ Features
