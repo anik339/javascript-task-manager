@@ -1,2 +1,4 @@
-# javascript-task-manager
-A JavaScript task management application featuring task creation, filtering, completion tracking, and localStorage persistence.
+
+## Deployment
+
+This project is configured for deployment using GitHub Pages.
