@@ -1,132 +1,109 @@
 
-# 🚀 JavaScript Task Manager
+# ✅ JavaScript Task Manager
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue)
+**A responsive task management app built with HTML, CSS, and vanilla JavaScript.**
 
-A clean and responsive task management application built using HTML5, CSS3, and Vanilla JavaScript.
+Organize daily tasks, set priorities, monitor progress, and keep your task list saved in your browser.
 
-Manage daily tasks, organize priorities, track progress, and save tasks directly in your browser.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f)](https://anik339.github.io/javascript-task-manager/)
 
 ## 🌐 Live Demo
+
+**[🚀 Open the Task Manager](https://anik339.github.io/javascript-task-manager/)**
+
 ## 📸 Project Preview
 
-![Task Manager Screenshot](./task-manager-preview.png)
-**[🚀 View Live Application](https://anik339.github.io/javascript-task-manager/)**
+![Task Manager application showing task counts, priorities, and active and completed tasks](./task-manager-preview.png)
 
 ## ✨ Features
 
-- ✅ Create and manage daily tasks
-- 🎯 Set task priorities
-- ✔️ Mark tasks as completed
-- 🔍 Filter tasks by completion status
-- 📊 Track total, remaining, and completed tasks
-- 🗑️ Clear completed tasks
-- 💾 Save tasks using browser localStorage
-- 🔄 Keep tasks after refreshing the page
-- 📱 Responsive user interface
+- **Create tasks:** Add a task with a name and a priority.
+- **Prioritize work:** Choose a priority level (Low, Normal, or High).
+- **Track progress:** See total, remaining, and completed task counts.
+- **Complete tasks:** Mark tasks done or active using checkboxes.
+- **Filter tasks:** View All, Active, or Completed tasks.
+- **Remove tasks:** Delete individual tasks or clear completed tasks.
+- **Save automatically:** Keep tasks in browser `localStorage`, including after page refreshes.
+- **Responsive layout:** Use the interface on different screen sizes.
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
-|---|---|
-| HTML5 | Semantic page structure |
-| CSS3 | Styling and responsive layout |
-| JavaScript | Application logic and DOM manipulation |
-| localStorage | Browser-based data persistence |
-| Git & GitHub | Version control and source hosting |
-| GitHub Pages | Live website deployment |
+| --- | --- |
+| HTML5 | Page structure and forms |
+| CSS3 | Layout and styling |
+| Vanilla JavaScript | Task handling, filtering, and DOM updates |
+| localStorage | Client-side task persistence |
+| GitHub Pages | Static site hosting |
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 javascript-task-manager/
 ├── index.html
 ├── styles.css
 ├── script.js
+├── task-manager-preview.png
 └── README.md
 ```
 
-## 🚀 Getting Started
+## 🚀 Run Locally
 
-### Option 1: Use the Live Website
+1. Clone this repository:
 
-Open the application:
+   ```bash
+   git clone https://github.com/anik339/javascript-task-manager.git
+   ```
 
-https://anik339.github.io/javascript-task-manager/
+2. Open the project folder:
 
-### Option 2: Run Locally
+   ```bash
+   cd javascript-task-manager
+   ```
 
-Clone this repository:
-
-```bash
-git clone https://github.com/anik339/javascript-task-manager.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd javascript-task-manager
-```
-
-Open `index.html` in your browser.
-
-No npm installation or backend server is required.
+3. Open `index.html` in a browser. No build tools, packages, or backend setup are required.
 
 ## 📖 How to Use
 
-1. Enter a task name.
-2. Select the task priority.
-3. Click "Add task".
-4. View the task in your task list.
-5. Mark tasks as completed when finished.
-6. Use filters to manage tasks.
-7. Refresh the browser to verify saved tasks.
+1. Enter a name under **Add a task**.
+2. Select **Low**, **Normal**, or **High** priority.
+3. Click **+ Add task**.
+4. Tick a task's checkbox when it is completed.
+5. Switch between **All**, **Active**, and **Completed** filters.
+6. Refresh the page to check that the tasks remain saved in that browser.
 
 ## 🧠 What I Practiced
 
-This project helped me practice:
-
-- JavaScript fundamentals
-- DOM manipulation
+- DOM selection and updates
 - Event handling
-- Arrays and objects
-- Conditional logic
-- Browser localStorage
-- Dynamic UI updates
-- Basic debugging
-- GitHub deployment
+- JavaScript arrays and objects
+- Filtering and task-state management
+- Browser storage (`localStorage`)
+- Responsive UI development
+- Publishing a static site with GitHub Pages
 
 ## ⚠️ Current Limitations
 
-- Tasks are stored locally in the browser.
-- There is no user authentication.
-- Tasks do not synchronize between devices.
-- There is no backend database.
+This is a **frontend-only learning project**. Tasks are saved on the current browser/device, not synchronized across accounts or devices. It does not have authentication, an API, or a database server.
 
-## 🔮 Future Improvements
+## 🗺️ Planned Improvements
 
-- [ ] Add task editing
-- [ ] Add due dates and reminders
-- [ ] Add priority-based sorting
-- [ ] Improve accessibility
+- [ ] Edit existing tasks
+- [ ] Add due dates and sorting
 - [ ] Add automated tests
-- [ ] Add optional cloud synchronization
+- [ ] Improve keyboard and screen-reader accessibility
+- [ ] Explore optional cloud sync in a future full-stack version
 
 ## 👨‍💻 Developer
 
-**Anik Dey**
+**Anik Dey** — Aspiring Full-Stack MERN Developer
 
-Aspiring Full-Stack MERN Developer
-
-GitHub: https://github.com/anik339
-
-## ⭐ Support
-
-If you find this project useful, consider giving the repository a star.
+- [GitHub Profile](https://github.com/anik339)
+- [Full-Stack Learning Journey](https://github.com/anik339/AI-Driven-Full-Stack-Web-Developer-with-MERN)
 
 ---
 
-**Built with HTML, CSS, JavaScript, and a commitment to continuous learning.**
+*Built while learning web development, one project at a time.*
